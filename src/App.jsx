@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
         <NavigationBar></NavigationBar>
         <Routes>
-          {/* route to different components by clicking on the navbar */}
+          {/* route to different components by clicking on the navbar links */}
           <Route path='/' element={<Content></Content>}> </Route>
           <Route path='/read' element={<Header></Header>}> </Route>
           <Route path='/create' element={<Footer></Footer>}> </Route>

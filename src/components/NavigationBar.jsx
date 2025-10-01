@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavigationBar() {
-  // navbar taken from the bootstrap
+  // navbar component from the bootstrap
     return (
      <Navbar bg="primary" data-bs-theme="dark">
           <Container>

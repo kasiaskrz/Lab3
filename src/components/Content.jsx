@@ -1,6 +1,5 @@
 // content component
 const Content = () => {
-
     return (
         <div>
             <h1>Hello World!</h1>

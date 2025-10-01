@@ -1,3 +1,4 @@
+// header component
 const Header = () => {
     
     return (
