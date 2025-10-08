@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import Container from 'react-bootstrap/Container';
 import NavigationBar from './components/NavigationBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Read from './components/Read';
+import Create from './components/Create';
 
 
 function App() {
@@ -22,8 +24,8 @@ function App() {
         <Routes>
           {/* route to different components by clicking on the navbar links */}
           <Route path='/' element={<Content></Content>}> </Route>
-          <Route path='/read' element={<Header></Header>}> </Route>
-          <Route path='/create' element={<Footer></Footer>}> </Route>
+          <Route path='/read' element={<Read />}> </Route>
+          <Route path='/create' element={<Create />}> </Route>
         </Routes>
       </BrowserRouter >
 
